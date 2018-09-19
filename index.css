@@ -1,0 +1,63 @@
+.text-print{
+    /* color:   #d32f2f !important; */
+}
+.btn-jose{
+    /* background-color: #d32f2f; */
+    background-color: #000000;
+    color: white;
+}
+.btn-jose:hover{
+    /* background-color: #b52929; */
+    background-color: #696767;
+}
+#main  img{
+    height: 90vh; 
+}
+.img-circle{
+    filter:grayscale(100%);
+}
+
+#main .carousel-inner img{
+    object-fit: cover;
+    filter:grayscale(50%);
+}
+.diseño{
+    padding: 0px;
+}
+#carousel{
+    position: relative;
+}
+#carousel .overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+}
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+#speakers{
+   background-color:  #dadada;
+}
+.card{
+  text-align: center;
+  filter:grayscale(100%);
+  border-radius: 31px 31px 31px 31px;
+-moz-border-radius: 31px 31px 31px 31px;
+-webkit-border-radius: 31px 31px 31px 31px;
+border: 0px solid #000000;
+  
+} 
+.card img{
+    height: 200px;
+} 
+#footer{
+    background: -webkit-linear-gradient(0deg,#000000,#292929 25%,#777777);
+}
+#footer a{
+    color:white;
+}
