@@ -1,15 +1,16 @@
 
 .text-print{
-    /* color:   #d32f2f !important; */
+     color:   #d32f2f !important;
+     font-weight: 900;
 }
 .btn-jose{
     /* background-color: #d32f2f; */
-    background-color: #000000;
+    background-color:teal;
     color: white;
 }
 .btn-jose:hover{
     /* background-color: #b52929; */
-    background-color: #696767;
+    background-color: #005159;
 }
 #main  img{
     height: 90vh; 
@@ -22,11 +23,7 @@
     object-fit: cover;
     filter:grayscale(50%);
 }
-.diseño{
-    padding: 0px;
-    width: 100px;
 
-}
 #carousel{
     position: relative;
 }
@@ -43,33 +40,24 @@
 #carousel .overlay .row{
     height: 100%;
 }
-#speakers{
-   background-color:  #dadada;
-}
-.card{
-    width: 100px;
-  text-align: center;
-  /* filter:grayscale(100%); */
-  border-radius: 31px 31px 31px 31px;
--moz-border-radius: 31px 31px 31px 31px;
--webkit-border-radius: 31px 31px 31px 31px;
-border: 0px solid #000000;
-margin-left: auto;
-  
-} 
+
 .card img{
-    height: 100px;
-    width: 100px;
-} 
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    
+}
+
 #place-text img{
     max-width: 100%;
+    height: 500px;
 }
 #place-text{
     background-color: #343a40;
     color: white;
 }
 #footer{
-    background: -webkit-linear-gradient(0deg,#000000,#292929 25%,#777777);
+    background: -webkit-linear-gradient(0deg,#005159,#0299a7 60%,#00cee0);
 }
 #footer a{
     color:white;
