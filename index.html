@@ -12,7 +12,7 @@
 
     <title>Jose chavez!!</title>
   </head>
-  <body data-spy="scroll" data-target="#navbar" data-offset="82">    
+  <body data-spy="scroll" data-target="#navbar" data-offset="200">    
     <!-- header -->
     
         <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -20,7 +20,7 @@
                 <a class="navbar-brand" href="#">
                     <h1>Jose chavez</h1>
                 </a>              
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>                        
                 <div class="collapse navbar-collapse" id="navbar">
@@ -35,8 +35,11 @@
                         <a class="nav-link " href="#place-text">Portafolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#contactos">contactame</a>
-                    </li>                 
+                        <a class="nav-link " href="#formulario">formulario</a>
+                    </li>   
+                    <li class="nav-item">
+                        <a href="#" data-toggle="modal" data-target="#modalComunicacion" class="btn btn-outline-light">Pide tu pagina web</a> 
+                    </li>              
                     </ul>            
                 </div>
         </nav>
@@ -60,7 +63,7 @@
                                 <div class="col-md-6 offset-md-6 text-right">
                                         <p>"El diseño de tu negocio es como tus clientes veran como estan 
                                         de organizados."</p>
-                                    <a href="#contactos" class="btn btn-outline-light">Pide tu pagina web</a>   
+                                    <a href="#" data-toggle="modal" data-target="#modalComunicacion" class="btn btn-outline-light">Pide tu pagina web</a>   
                                     <button type="button" class="btn btn-jose ">Contactame</button>                                
                                 </div>
                             </div>
@@ -168,8 +171,8 @@
             </div>
         </div>
     </section>
-<!-- contactame -->
-<section id="contactos">
+<!-- formulario -->
+<section id="formulario">
     <div class="container">
         <div class="row">
             <div class="col text-center">
@@ -179,7 +182,7 @@
         </div>
 
         <div class="row">
-            <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+            <div class="col  col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
                 <form >
                     <div class="form-row">
                         <div class="form-group col-12 col-md-6">
@@ -205,7 +208,7 @@
         </div>
     </div>
 </section>
-<!-- contactame -->
+<!-- formulario -->
   <!-- footer -->
     <footer id="footer" class="pb-4 pt-4">
         <div class="container">
@@ -226,6 +229,42 @@
         </div>
     </footer>
 <!-- footer -->
+
+<!--  modal -->
+<div class="modal" id="modalComunicacion" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form action="">
+                  <div class="from-row">
+                    <div class="from-group col">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">@</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                  </div>
+              </form>
+              <div class="alert alert-warning" role="alert">
+                   Recibiras un correo cuando te lea
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancerlar</button>
+              <button type="button" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--  modal -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

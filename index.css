@@ -16,7 +16,7 @@
     height: 90vh; 
 }
 .img-circle{
-    filter:grayscale(100%);
+    filter:grayscale(10%);
 }
 
 #main .carousel-inner img{
